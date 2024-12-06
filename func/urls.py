@@ -4,4 +4,5 @@ from . import views
 app_name = 'func'
 
 urlpatterns = [
+    path("", views.menu, name="order"),
 ]
